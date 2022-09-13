@@ -1,10 +1,25 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 with Tailwindcss sample
 
-## About
+## How to use tailwindcss with Nuxt 3?
 
+1. Add `@nuxtjs/tailwindcss` dependency to your project
 
-## References
+```sh
+npm install --save-dev @nuxtjs/tailwindcss
+```
 
-## Nuxt3 Documentation
+2. Add it to your modules section in your `nuxt.config`:
 
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+```js
+export default {
+  modules: ['@nuxtjs/tailwindcss']
+}
+```
+
+3. Create your `tailwind.config.js` by running:
+
+```sh
+npx tailwindcss init
+```
+
+**That's it!** You can now use Tailwind classes in your Nuxt 3 app ✨
