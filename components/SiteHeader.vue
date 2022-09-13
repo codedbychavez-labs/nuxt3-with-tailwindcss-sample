@@ -9,7 +9,7 @@
 
     <div class="hero">
       <div>
-        <h1>Trained by Kim</h1>
+        <h1>Trained by Kim.</h1>
         <h3>Get trained and reach your fitness goal faster than ever with our QikFit program.</h3>
       </div>
     </div>
